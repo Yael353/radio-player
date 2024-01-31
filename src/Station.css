@@ -1,0 +1,32 @@
+.station {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 400px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.station img {
+  width: 100px;
+  height: 100px;
+  border-right: 1px solid black;
+}
+
+.station .audio {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  margin: 5px;
+}
+
+.station .audio {
+  margin-bottom: 10px;
+}
